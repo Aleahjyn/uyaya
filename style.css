@@ -43,3 +43,32 @@ h1 {
     font-size: 20px;
     font-family: 'Times New Roman', Times, serif;
 }
+
+.card-img-top {
+    width: 50%;
+}
+.card {
+    padding: 25px 20px;
+    border: 2px solid gray;
+    transition: all ease-in .4s;
+}
+.card:hover{
+    box-shadow: 0 0 45px 0 rgba(71, 3, 71, 0.973);
+    transform: scale(1.1);
+    background-color: violet;
+}
+.card:hover .card-title,
+.card:hover .card-text {
+    color: white;
+}
+
+section {
+    padding: 100px 0;
+}
+
+#sugpon h2 {
+    font-family:'Times New Roman', Times, serif;
+    font-size: 65px;
+    color: violet;
+    margin-bottom: 30px;
+}
