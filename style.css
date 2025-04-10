@@ -114,3 +114,57 @@ transition: all ease-in .4s;
 #faq{
     background-color: #9853908c;
 }
+
+.faq-section {
+    max-width: 800px;
+    margin: auto;
+}
+
+.accordion-item {
+    margin-bottom: 20px;
+    border-radius: 0 !important;
+}
+
+.accordion-botton {
+    background-color: rgb(167, 114, 216);
+    border: none;
+    border-bottom: 1px solid rgb(117, 151, 214);
+    border-radius: 0 !important;
+    padding: 15px;
+    font-size: 18px;
+    font-weight: 500;
+    color: rgb(206, 65, 206);
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+@media screen {
+    
+}
+#banner h1{ 
+    font-size: 40px !important;
+}
+#sugpon h2 {
+    font-size: 40px !important;
+}
+#sugpon .col {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+section {
+    padding: 60px 20px !important;
+}
+
+#footer {
+    padding: 60px 20 px !important;
+}
+#about img {
+    height: 410px;
+    width: 250px;
+    margin: 0 auto;
+    object-fit: cover;
+}
+#about h2{
+    font-size: 40px !important;
+}
