@@ -120,31 +120,65 @@ transition: all ease-in .4s;
     margin: auto;
 }
 
-.accordion-item {
-    margin-bottom: 20px;
+.acccordion {
+    background-color:purple;
+    color: white;
+    border-bottom: 1px solid black;
     border-radius: 0 !important;
-}
-
-.accordion-botton {
-    background-color: rgb(167, 114, 216);
-    border: none;
-    border-bottom: 1px solid rgb(117, 151, 214);
-    border-radius: 0 !important;
-    padding: 15px;
-    font-size: 18px;
-    font-weight: 500;
-    color: rgb(206, 65, 206);
     cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    outline: none;
+    font-size: 18px;
     transition: background-color 0.3s, color 0.3s;
 }
 
-@media screen {
-    
+.accordion-body {
+    border-left: 3px solid red ;
+    padding: 10px 25px;
+    margin-left: 0;
+    background-color: violet;
+    color: white;
 }
-#banner h1{ 
+
+.acccordion-button:not(.collapsed) {
+    background-color: red;
+    color: white;
+}
+
+.accordion-button:hover{
+    background-color: rgb(216, 231, 8);
+    color: black;
+}
+
+#footer {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: black;
+}
+
+#footer ul.list-unstyled li a{
+color: #ffffff;
+text-decoration: none;
+}
+
+#footer ul.list-unstyled li a:hover{
+color: blueviolet;
+}
+
+#footer button {
+border-radius: 1px;
+}
+
+@media screen and (max-width: 768px) {
+.navbar{
+    height: auto;
+}
+#banner h1{
     font-size: 40px !important;
 }
-#sugpon h2 {
+#sugpon h2{
     font-size: 40px !important;
 }
 #sugpon .col {
@@ -157,14 +191,15 @@ section {
 }
 
 #footer {
-    padding: 60px 20 px !important;
+    padding: 60px 20px !important;
 }
-#about img {
+#about img{
     height: 410px;
-    width: 250px;
+    width: 250px !important;
     margin: 0 auto;
     object-fit: cover;
 }
 #about h2{
     font-size: 40px !important;
 }
+}   
